@@ -40,8 +40,8 @@ Node.js 20+ installieren, dann im Projektordner:
 
 ```bash
 npm install
-cp .env.example .env
-# In .env die eigenen Supabase-Werte einsetzen
+cp .env.example .env.local
+# In .env.local die eigenen Supabase-Werte einsetzen (wird durch .gitignore nicht eingecheckt)
 npm run dev
 ```
 

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# Lokale Umgebungsvariablen mit echten Zugangsdaten niemals einchecken
+.env
+.env.*
+!.env.example
+
+.vercel
+.DS_Store
